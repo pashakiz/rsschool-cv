@@ -46,7 +46,7 @@ https://github.com/pashakiz/exam-react
 ---
 
 In addition, I wrote a couple of bots in a Telegram.
-<br>One of them: https://github.com/pashakiz/HealthyMealBot
+<br>One of them: [https://github.com/pashakiz/HealthyMealBot](https://github.com/pashakiz/HealthyMealBot)
 
 ---
 
