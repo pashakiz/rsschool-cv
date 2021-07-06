@@ -33,13 +33,13 @@ function makeNegative(num) {
 
 ---
 
-https://github.com/pashakiz/eroticfantasyclub,
-<br>https://github.com/pashakiz/mybustybeauty
+[https://github.com/pashakiz/eroticfantasyclub](https://github.com/pashakiz/eroticfantasyclub),
+<br>[https://github.com/pashakiz/mybustybeauty](https://github.com/pashakiz/mybustybeauty)
 <br>html layouts from design (webpack, scss, js)
 
 ---
 
-https://github.com/pashakiz/exam-react
+[https://github.com/pashakiz/exam-react](https://github.com/pashakiz/exam-react)
 <br>[2019 year] Interactive tickets for traffic rules on ReactJS.
 <br>(Header and footer was copied from auto school site, for which I made this project) 
 
@@ -54,7 +54,7 @@ And a lot of my code you can find [here](https://github.com/pashakiz?tab=reposit
 
 # Experience
 
-### Clascal (Toronto, Canada), http://clascal.com/
+### Clascal (Toronto, Canada), [clascal.com](http://clascal.com/)
 **Fullstack Web Developer** (remote, PHP (Codeigniter 2), JS (jQuery, Ajax), HTML/CSS, Git)
 <br>18.10.2016 – 12.07.2019
 
@@ -76,7 +76,7 @@ I can ask a reference letter.
 
 ---
 
-### DONCOIN (Donetsk), http://doncoin.club
+### DONCOIN (Donetsk), [doncoin.club](http://doncoin.club)
 **Fullstack Web Developer** (HTML/CSS/JS/PHP/Git)
 <br>01.09.2015 – 01.10.2016
 
@@ -87,7 +87,7 @@ I can ask a reference letter.
 
 ---
 
-### TurboWEB (Donetsk), http://turboweb.com.ua/
+### TurboWEB (Donetsk), [turboweb.com.ua](http://turboweb.com.ua/)
 **Frontend Developer** (HTML/CSS)
 <br>01.05.2014 - 31.08.2014
 
