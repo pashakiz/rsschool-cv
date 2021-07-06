@@ -21,7 +21,36 @@ I like to learn new technologies. And I'm always pay much attention to details.
 </dl>
 
 # Code examples
-...
+Something from [codewars](https://www.codewars.com/users/pashakiz)🙃:
+```javascript
+function makeNegative(num) {
+  if (num > 0) {
+    return num * -1;
+  }
+  return num;
+}
+```
+
+---
+
+https://github.com/pashakiz/eroticfantasyclub,
+<br>https://github.com/pashakiz/mybustybeauty
+<br>html layouts from design (webpack, scss, js)
+
+---
+
+https://github.com/pashakiz/exam-react
+<br>[2019 year] Interactive tickets for traffic rules on ReactJS.
+<br>(Header and footer was copied from auto school site, for which I made this project) 
+
+---
+
+In addition, I wrote a couple of bots in a Telegram.
+<br>One of them: https://github.com/pashakiz/HealthyMealBot
+
+---
+
+And a lot of my code you can find [here](https://github.com/pashakiz?tab=repositories).
 
 # Experience
 ...
