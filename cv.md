@@ -116,7 +116,24 @@ I can ask a reference letter.
 - Cooperation with partners of the company 
 
 # Education
-...
+
+#### Donetsk National Technical University (2006-2008)
+Form of study: Full-time
+<br>Faculty: Computing Technology
+<br>Speciality: The software of the automated systems
+<br>Chair: Applied Mathematics and Computer Science
+
+#### Donetsk Institute of Psychology and Entrepreneurship (2008-2011)
+Form of study: Distance Learning
+<br>Faculty: Psychology and Sociology
+<br>Speciality: Psychologist
+<br>Chair: General Psychology
+
+#### Moscow Gestalt Institute (2019-2022)
+I am studying the second profession - Gestalt psychotherapy
+
+#### The Rolling Scopes School (2021)
+[JS/FE Pre-School](https://rs.school/js-stage0)
 
 # Languages
 Russian: Native
