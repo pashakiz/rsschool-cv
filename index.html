@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>CV Pavel Kizernis (Web Developer)</title>
   <link rel="stylesheet" href="styles/bootswatch/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/highlight.js/default.min.css">
+  <link rel="stylesheet" href="styles/highlight.js/atom-one-dark.css">
   <link rel="stylesheet" href="styles/custom-dark.css">
   <link rel="stylesheet" href="styles/custom.css">
   <link rel="stylesheet" href="styles/media.css">
@@ -18,15 +20,15 @@
         <div class="row">
           <div class="col-12 col-md-4">
               <figure class="aboutphoto">
-                  <img src="images/pavel.jpg" alt="Photo">
+                  <img src="img/pavel.jpg" alt="Photo">
               </figure>
           </div>
           <div class="col-12 col-md-8">
             <h1><span>Pavel Kizernis</span>&nbsp;<br class="d-xl-none">Web Frontend Developer</h1>
-            <p>
-              Email: <a href="mailto:pashakiz@gmail.com" target="_blank">pashakiz@gmail.com</a>
-              <br>Telegram: <a href="https://t.me/pashakiz" target="_blank">@pashakiz</a>
-            </p>
+            <ul class="contacts">
+              <li>Email: <a href="mailto:pashakiz@gmail.com" target="_blank">pashakiz@gmail.com</a></li>
+              <li>Telegram: <a href="https://t.me/pashakiz" target="_blank">@pashakiz</a></li>
+            </ul>
             <p>My goal is the working with interesting projects on position Senior Developer or Team Lead!</p>
             <p>I’m working in web development from the time of CSS2 (about 2010). Basically in frontend development (HTML/CSS).</p>
             <p>I love and want to develop beautiful and useful interfaces. Since 2017 I worked a little in backend development too.</p>
@@ -39,7 +41,7 @@
     <section class="block block_shadow">
       <div class="container">
         <h2 class="text-center">Skills</h2>
-        <ul>
+        <ul class="skills">
           <li>
             <h3 class="mb-2">Frontend</h3>
             <ul>
@@ -80,6 +82,11 @@
     <section class="block block_links">
       <div class="container">
         <h2 class="text-center">Code examples</h2>
+        <pre><code class="javascript">
+          const rotateMatrix = arr => {
+            return arr[0].map((v, i) => arr.map(v => v[v.length - 1 - i]))
+          }
+        </code></pre>
         <p>
           <a href="https://github.com/pashakiz/eroticfantasyclub" target="_blank">https://github.com/pashakiz/eroticfantasyclub</a>,
           <br><a href="https://github.com/pashakiz/mybustybeauty" target="_blank">https://github.com/pashakiz/mybustybeauty</a>
@@ -96,7 +103,55 @@
           <br>One of them: <a href="https://github.com/pashakiz/HealthyMealBot" target="_blank">https://github.com/pashakiz/HealthyMealBot</a>
         </p>
         <hr>
-        <p><a href="portfolio.html" target="_blank">More...</a></p>
+        <p><a href="https://pashakiz.github.io/portfolio.html" target="_blank">More...</a></p>
+
+        <div class="row">
+          <div class="col-12 col-md">
+            <a class="thumbs" target="_blank" href="https://github.com/pashakiz/liveyourwetdream" style="background-image: url(img/thumbs/liveyourwetdream.jpg);">
+              <div class="thumbs__overlay"></div>
+              <div class="thumbs__hover d-flex justify-content-between align-items-center">
+                <div class="thumbs__title">Live Your Wet Dream</div>
+                <div class="thumbs__skills">
+                  <div class="skilled">webpack</div>
+                  <div class="skilled">scss</div>
+                  <div class="skilled">Bootstrap 4</div>
+                  <div class="skilled">JS</div>
+                  <div class="skilled">jQuery</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md">
+            <a class="thumbs" target="_blank" href="https://github.com/pashakiz/exam-react" style="background-image: url(img/thumbs/avtoclub.png);">
+              <div class="thumbs__overlay"></div>
+              <div class="thumbs__hover d-flex justify-content-between align-items-center">
+                <div class="thumbs__title">Traffic rules exam</div>
+                <div class="thumbs__skills">
+                  <div class="skilled">ReactJS</div>
+                  <div class="skilled">JS</div>
+                  <div class="skilled">HTML</div>
+                  <div class="skilled">CSS</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md">
+            <a class="thumbs" target="_blank" href="https://github.com/pashakiz/carine_amici" style="background-image: url(img/thumbs/carineamici.png);">
+              <div class="thumbs__overlay"></div>
+              <div class="thumbs__hover d-flex justify-content-between align-items-center">
+                <div class="thumbs__title">Carine Amici</div>
+                <div class="thumbs__skills">
+                  <div class="skilled">jQuery</div>
+                  <div class="skilled">JS</div>
+                  <div class="skilled">Bootstrap 4</div>
+                  <div class="skilled">HTML</div>
+                  <div class="skilled">CSS</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
         <p>
           ..And a lot of my code you can find in my github profile:
           <a class="linksvg" href="https://github.com/pashakiz" target="_blank">
@@ -239,6 +294,15 @@
       </div>
     </section>
 
+    <section class="block">
+      <div class="container">
+        <h2 class="text-center">Video Self introduction</h2>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gHiex0Usocs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
     <div class="block">
       <div class="container text-right">
         <details>
@@ -261,24 +325,31 @@
             </svg>
           </a>
           <a class="footer__rss" href="https://rs.school/js/" target="_blank">
-            <img src="images/rs_school_js.svg" alt="RS School" height="30">
+            <img src="img/rs_school_js.svg" alt="RS School" height="30">
           </a>
       </div>
     </div>
   </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-          crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-          crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-          crossorigin="anonymous"></script>
+  <script src="js/highlight.min.js"></script>
+  <script>hljs.highlightAll()</script>
   <script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    });
+    console.log('%cСамопроверка задания:', 'color: green; font-size: 20px')
+    console.log('- [x] вёрстка валидная (10/10)')
+    console.log('- [x] вёрстка семантическая [h1,h2,h3,h5,header,figure,section,details,summary,footer] (20/20)')
+    console.log('- [x] для оформления СV используются css-стили (10/10)')
+    console.log('- [x] контент размещается в блоке, который горизонтально центрируется на странице. Фоновый цвет, если он есть, тянется во всю ширину страницы (10/10)')
+    console.log('- [x] вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется горизонтальная полоса прокрутки, при этом всё содержание страницы сохраняется (10/10)')
+    console.log('- [ ] есть меню. Ссылки в пунктах меню ведут на основные разделы CV. При кликах по пунктам меню реализована плавная прокрутка по якорям. При уменьшении ширины экрана меню становится адаптивным. (0/10)')
+    console.log('- [x] на странице СV присутствует изображение - фото или аватарка автора CV, пропорции изображения не искажены, у изображения есть атрибут alt (может быть пустым) (10/10)')
+    console.log('- [x] контакты для связи и перечень навыков оформлены в виде списка ul > li (10/10)')
+    console.log('- [x] CV содержит контакты для связи, краткую информацию о себе, перечень навыков, информацию об образовании и уровне английского (10/10)')
+    console.log('- [x] CV содержит пример вашего кода (например, решение задачи с сайта codewars) с подсветкой кода. (10/10)')
+    console.log('- [x] CV содержит изображения-ссылки на выполненные вами проекты. При клике по изображению страница проекта открывается в новой вкладке (10/10)')
+    console.log('- [x] CV выполнено на английском языке (10/10)')
+    console.log('- [x] выполнены требования к Pull Request (10/10)')
+    console.log('- [x] есть видеорезюме автора CV на английском языке. Продолжительность видео 3-5 минут (±15 секунд). В описание видео на YouTube добавлена его транскрипция на английском языке (10/10)')
+    console.log('- [x] качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию (это дополнительные 10 баллов, поэтому некоторый субъективизм в оценке может присутствовать) (10/10)')
+    console.log('%cИтого: ', 'color: green;', '150/150 👌😉')
   </script>
 </body>
 </html>
